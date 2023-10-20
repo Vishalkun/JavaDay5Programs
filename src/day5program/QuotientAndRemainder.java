@@ -5,20 +5,12 @@ import java.util.Scanner;
 public class QuotientAndRemainder {
 
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-
-        System.out.print("Enter the dividend: ");
-        int dividend = input.nextInt();
-
-        System.out.print("Enter the divisor: ");
-        int divisor = input.nextInt();
-        input.close();
-
-        int quotient = dividend / divisor;
-        int remainder = dividend % divisor;
-
-        System.out.println("Quotient: " + quotient);
-        System.out.println("Remainder: " + remainder);
+		 int a = 17, b = 5;
+         int q, r;
+         q = a / b;
+         r = a % b; 
+         System.out.print("When " + a + " is divided by " + b + ", quotient is " + q + " and remainder is " + r + ".");
+         
 	}
 
 }
