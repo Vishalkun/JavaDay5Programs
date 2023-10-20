@@ -1,23 +1,28 @@
 package day5program;
 
 public class PowerOf2 {
+	public static void power2()
+    {
+        int n, pow, i;
+        for(i = 0; i < 10; i++)
+        {
+            pow = 1;
+            n = i;
+
+            while(n > 0)
+            {
+                pow *= 2;
+                n--;
+            }
+            System.out.print(pow);
+
+        }
+    }
 
 	public static void main(String[] args) {
-		if (args.length != 1) {
-            System.out.println("Please provide one integer command-line argument");
-            return;
-        }
-
-        int N = Integer.parseInt(args[0]);
-
-        if (N < 0 || N >= 31) {
-            System.out.println("N must be in the range ");
-            return;
-        }
-
-        for (int i = 0; i <= N; i++) {
-            int powerOf2 = (int) Math.pow(2, i);
-            System.out.println("2^" + i + " = " + powerOf2);
+		PowerOf2  p= new PowerOf2();
+		p.power2();
+		
 	}
-
-}}
+	
+}

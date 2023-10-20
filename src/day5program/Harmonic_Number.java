@@ -21,7 +21,7 @@ public class Harmonic_Number {
             harmonicValue += 1.0 / i;
         }
 
-        System.out.println("The " + N + "th Harmonic Value is: " + harmonicValue);
+        System.out.println("The " + N + " Harmonic Value is: " + harmonicValue);
 	}
 
 }
