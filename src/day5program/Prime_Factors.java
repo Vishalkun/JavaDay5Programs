@@ -18,4 +18,4 @@ public class Prime_Factors {
 	public static void main(String[] args) {
 		 int n = 60;
 		    primeFactor(n);
-	}}
+	}
