@@ -20,5 +20,10 @@ public class LeapYear {
             System.out.print("it is not a Leap Year:"+ year);
               
 	}
+<<<<<<< HEAD
 	}}
+=======
+	}
+}
+>>>>>>> 7a37e48b598ef8df572291857b50a060dca85069
 
